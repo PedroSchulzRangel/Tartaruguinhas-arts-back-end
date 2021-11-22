@@ -6,7 +6,7 @@ import CategoriaController from './controllers/CategoriaController';
 const routes = Router();
 
 routes.get('/produtos', ProdutoController.list);
-routes.get('/produtos/:codigo', ProdutoController.find);
+routes.get('/produtos/:id_product', ProdutoController.find);
 
 routes.get('/categorias', CategoriaController.list);
 
