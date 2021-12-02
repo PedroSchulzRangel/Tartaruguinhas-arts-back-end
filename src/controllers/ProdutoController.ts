@@ -8,6 +8,7 @@ export default {
         var result = await knex('tb_products').orderBy('name');
 
         return response.status(200).json({ data: result });
+
     },
 
     async find(request: Request, response: Response) {
@@ -15,7 +16,7 @@ export default {
         const product = await knex('tb_products').where({ id_product });
 
         return response.status(200).json({ data: product });
-    },
 
+    },
 
 }
