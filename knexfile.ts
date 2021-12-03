@@ -4,10 +4,10 @@ export default {
     development : {
         client: 'mysql2',
         connection: {
-            host: 'sql10.freesqldatabase.com',
-            user: 'sql10454601',
-            password: 'pQBvlfTnXK',
-            database: 'sql10454601'
+            host: 'YOUR HOST HERE',
+            user: 'YOUR USER HERE',
+            password: 'YOUR PASSWORD HERE',
+            database: 'YOUR DATABASE HERE'
         },
         migrations: {
             tableName: 'knex_migrations',
