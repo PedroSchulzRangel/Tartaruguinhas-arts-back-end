@@ -1,7 +1,7 @@
 {
   "name": "gama-challenge-four",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/src/server.js",
   "author": "miltonsmendes <miltonsergiom@gmail.com>",
   "license": "MIT",
   "dependencies": {
@@ -11,6 +11,7 @@
     "typescript": "^4.5.2"
   },
   "scripts": {
+    "start": "node dist/src/server.js",
     "dev": "ts-node-dev src/server.ts"
   },
   "devDependencies": {
@@ -19,5 +20,5 @@
     "nodemon": "^2.0.15",
     "ts-node-dev": "^1.1.8"
   },
-  "repository": "git@github.com:miltonsmendes/gama-challenge-four.git"
+  "repository": "https://git.heroku.com/tartaruguinha-arts-api.git"
 }

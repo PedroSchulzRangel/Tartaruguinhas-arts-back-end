@@ -4,16 +4,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const path_1 = __importDefault(require("path"));
-const dotenv_1 = __importDefault(require("dotenv"));
-dotenv_1.default.config();
 exports.default = {
     development: {
         client: 'mysql2',
         connection: {
-            host: process.env.DATABASE_SQL_HOST,
-            user: process.env.DATABASE_SQL_USER,
-            password: process.env.DATABASE_SQL_PASSWORD,
-            database: process.env.DATABASE_SQL_DATABASE_NAME
+            host: 'sql10.freesqldatabase.com',
+            user: 'sql10454601',
+            password: 'pQBvlfTnXK',
+            database: 'sql10454601'
         },
         migrations: {
             tableName: 'knex_migrations',
