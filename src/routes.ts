@@ -8,7 +8,9 @@ const routes = Router();
 routes.get('/produtos', ProdutoController.list);
 routes.get('/produtos/:id_product', ProdutoController.find);
 
+
 routes.get('/categorias', CategoriaController.list);
+routes.get('/categorias/:id_category', CategoriaController.findByCategory);
 
 
 
