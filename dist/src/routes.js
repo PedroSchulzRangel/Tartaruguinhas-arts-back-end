@@ -10,4 +10,5 @@ const routes = (0, express_1.Router)();
 routes.get('/produtos', ProdutoController_1.default.list);
 routes.get('/produtos/:id_product', ProdutoController_1.default.find);
 routes.get('/categorias', CategoriaController_1.default.list);
+routes.get('/categorias/:id_category', CategoriaController_1.default.findByCategory);
 exports.default = routes;

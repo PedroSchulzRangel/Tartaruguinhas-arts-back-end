@@ -5,6 +5,7 @@
   "author": "miltonsmendes <miltonsergiom@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "knex": "^0.95.14",
     "mysql2": "^2.3.3",
@@ -15,6 +16,7 @@
     "dev": "ts-node-dev src/server.ts"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.12",
     "@types/express": "^4.17.13",
     "dotenv": "^10.0.0",
     "nodemon": "^2.0.15",

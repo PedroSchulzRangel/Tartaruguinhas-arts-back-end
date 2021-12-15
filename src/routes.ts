@@ -14,4 +14,5 @@ routes.get('/categorias/:id_category', CategoriaController.findByCategory);
 
 
 
+
 export default routes;

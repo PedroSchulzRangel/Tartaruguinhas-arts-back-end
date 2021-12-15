@@ -8,10 +8,10 @@ exports.default = {
     development: {
         client: 'mysql2',
         connection: {
-            host: 'YOUR HOST HERE',
-            user: 'YOUR USER HERE',
-            password: 'YOUR PASSWORD HERE',
-            database: 'YOUR DATABASE HERE'
+            host: 'sql10.freesqldatabase.com',
+            user: 'sql10454601',
+            password: 'pQBvlfTnXK',
+            database: 'sql10454601'
         },
         migrations: {
             tableName: 'knex_migrations',

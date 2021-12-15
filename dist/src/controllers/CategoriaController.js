@@ -20,4 +20,11 @@ exports.default = {
             return response.status(200).json({ data: result });
         });
     },
+    findByCategory(request, response) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const { id_category } = request.params;
+            const product = yield (0, connection_1.default)('tb_products').where({ id_category });
+            return response.status(200).json({ data: product });
+        });
+    },
 };
